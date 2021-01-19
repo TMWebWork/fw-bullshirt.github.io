@@ -1,6 +1,7 @@
 import showPromoText from './timer_show_hidden_text.js'
 import mobileNav from  './header_bullshirt.js'
 import placeStars from './Arrow_Star.js'
+import StartTimer from './Timer.js'
 $(document).ready(function () {
     let demoPromos = [
         `Мы оформим вам бесплатную <br>доставку в любую точку Украины...`,
@@ -11,9 +12,9 @@ $(document).ready(function () {
     `]
     showPromoText(demoPromos);
 
-
     mobileNav($('.menu-button'), $('.burger_menu'))
 
     placeStars();
 
+    StartTimer();
 })

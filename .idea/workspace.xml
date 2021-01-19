@@ -20,16 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8dd66667-d82f-454f-b77e-5c8f1b585a3d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/img/Arrow1.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/Arrow2.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/Arrow_Star.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/mainHub.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/timer_show_hidden_text.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/Timer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css2.css" beforeDir="false" afterPath="$PROJECT_DIR$/css2.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/tildacopy.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/tildafavicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.htm" beforeDir="false" afterPath="$PROJECT_DIR$/index.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/mainHub.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/mainHub.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,6 +54,16 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
+  <component name="RunManager">
+    <configuration name="Timer.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/js/Timer.js" working-dir="$PROJECT_DIR$/js">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.Timer.js" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -75,7 +78,7 @@
       <workItem from="1610949806166" duration="8190000" />
       <workItem from="1610983241714" duration="5886000" />
       <workItem from="1610993556111" duration="5394000" />
-      <workItem from="1611001989648" duration="20117000" />
+      <workItem from="1611001989648" duration="24184000" />
     </task>
     <servers />
   </component>
@@ -98,10 +101,26 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="505" y="139" key="FileChooserDialogImpl" timestamp="1610998339322">
+    <state x="505" y="139" key="FileChooserDialogImpl" timestamp="1611022183808">
       <screen x="90" y="0" width="1270" height="768" />
     </state>
-    <state x="505" y="139" key="FileChooserDialogImpl/90.0.1270.768@90.0.1270.768" timestamp="1610998339322" />
+    <state x="505" y="139" key="FileChooserDialogImpl/90.0.1270.768@90.0.1270.768" timestamp="1611022183808" />
+    <state width="1249" height="192" key="GridCell.Tab.0.bottom" timestamp="1611026183196">
+      <screen x="90" y="0" width="1270" height="768" />
+    </state>
+    <state width="1249" height="192" key="GridCell.Tab.0.bottom/90.0.1270.768@90.0.1270.768" timestamp="1611026183196" />
+    <state width="1249" height="192" key="GridCell.Tab.0.center" timestamp="1611026183196">
+      <screen x="90" y="0" width="1270" height="768" />
+    </state>
+    <state width="1249" height="192" key="GridCell.Tab.0.center/90.0.1270.768@90.0.1270.768" timestamp="1611026183196" />
+    <state width="1249" height="192" key="GridCell.Tab.0.left" timestamp="1611026183196">
+      <screen x="90" y="0" width="1270" height="768" />
+    </state>
+    <state width="1249" height="192" key="GridCell.Tab.0.left/90.0.1270.768@90.0.1270.768" timestamp="1611026183196" />
+    <state width="1249" height="192" key="GridCell.Tab.0.right" timestamp="1611026183196">
+      <screen x="90" y="0" width="1270" height="768" />
+    </state>
+    <state width="1249" height="192" key="GridCell.Tab.0.right/90.0.1270.768@90.0.1270.768" timestamp="1611026183196" />
     <state x="335" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1610997762378">
       <screen x="90" y="0" width="1270" height="768" />
     </state>
