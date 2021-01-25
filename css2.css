@@ -245,7 +245,6 @@
     #less_about_promo {
         font-size: 13px;
     }
-
 }
 
 @media screen and (max-width: 479px) {
@@ -1387,6 +1386,11 @@
     background-position: center center;
     border-color: transparent;
     border-style: solid;
+    transition: 0.3s;
+}
+
+#rec267333759 .tn-elem[data-elem-id="1609921606250"]:hover .tn-atom {
+    color: #FF4747;
 }
 
 @media screen and (max-width: 1199px) {
@@ -1443,7 +1447,12 @@
     font-weight: 400;
     background-position: center center;
     border-color: transparent;
+    transition: 0.3s;
     border-style: solid;
+}
+
+#rec267333759 .tn-elem[data-elem-id="1609921613546"]:hover .tn-atom {
+    color: #FF4747;
 }
 
 @media screen and (max-width: 1199px) {
@@ -1502,6 +1511,11 @@
     background-position: center center;
     border-color: transparent;
     border-style: solid;
+    transition: 0.3s;
+}
+
+#rec267333759 .tn-elem[data-elem-id="1609921616954"]:hover .tn-atom {
+    color: #FF4747;
 }
 
 @media screen and (max-width: 1199px) {
@@ -1600,6 +1614,11 @@
     background-position: center center;
     border-color: transparent;
     border-style: solid;
+    transition: 0.3s;
+}
+
+#rec267333759 .tn-elem[data-elem-id="1609922466778"]:hover .tn-atom {
+    color: #FF4747;
 }
 
 @media screen and (max-width: 1199px) {
@@ -1659,6 +1678,11 @@
     background-position: center center;
     border-color: transparent;
     border-style: solid;
+    transition: 0.3s;
+}
+
+#rec267333759 .tn-elem[data-elem-id="1609923373601"]:hover .tn-atom {
+    color: #FF4747;
 }
 
 @media screen and (max-width: 1199px) {
@@ -4182,12 +4206,14 @@
     background-position: center center;
     border-color: transparent;
     border-style: solid;
+    cursor: pointer;
     transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 }
 
 #rec267972904 .tn-elem[data-elem-id="1610145794389"]:hover .tn-atom {
     background: white;
     color: #a30c0c;
+    cursor: pointer;
 }
 
 @media screen and (max-width: 1199px) {
@@ -6034,8 +6060,6 @@
     vertical-align: middle;
 }
 
-
-
 button.t-submit {
     background: #a30c0c !important;
     color: white;
@@ -6046,9 +6070,11 @@ button.t-submit:hover {
     background: #c1b2b2 !important;
     color: #FF4747;
 }
+
 #more_about_promo {
     cursor: pointer;
 }
+
 #less_about_promo {
     cursor: pointer;
     color: #a30c0c;
@@ -6067,27 +6093,41 @@ button.t-submit:hover {
     z-index: 9999;
     text-align: center;
 }
-.burger_menu > ul {
-    list-style-type: none;;
+
+.burger_menu>ul {
+    list-style-type: none;
 }
-.burger_menu > ul > li {
+
+.burger_menu>ul>li {
     font-family: Ubuntu;
     padding-bottom: 15px;
     padding-top: 15px;
     font-size: 18px;
 }
-.burger_menu > ul > li > a {
+
+.burger_menu>ul>li>a {
     line-height: 21px;
     letter-spacing: 0.1em;
+    color: #111010 !important;
+}
+
+.burger_menu>ul>li>a:hover {
     color: #A30C0C !important;
 }
+
 #left_comments_arrow {
     z-index: 43;
     position: fixed;
     top: 50px;
     left: 80%;
 }
+
 #right_comments_arrow {
     position: absolute;
 }
-.arrow_container {width: 500px; height: 500px; background: red}
+
+.arrow_container {
+    width: 500px;
+    height: 500px;
+    background: red
+}

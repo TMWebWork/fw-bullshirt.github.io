@@ -13,6 +13,6 @@
             else paint(R);
             $(m).slideToggle("slow");
         }
-        $(b).hover(() => paint(R), () => {if(!t) paint(W)}).click(t_menu);
-        $(document).click(e => {if(t && e.target.className != 't396__elem menu-button') t_menu() }
-        )}
+        $(b).hover(() => paint(R), () => { if (!t) paint(W) }).click(t_menu);
+        $(document).click(e => { if (t && e.target.className != 't396__elem menu-button') t_menu() })
+    }
